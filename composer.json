@@ -1,0 +1,21 @@
+{
+    "name": "zotyo/api",
+    "description": "Provides api services",
+    "license": "MIT",
+    "keywords": ["api"],
+    "authors": [
+        {
+            "name": "Nagy Zoltan",
+            "email": "nagy.zotyoka@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Zotyo\\Api\\": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
